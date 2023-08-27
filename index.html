@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Michael Boateng" />
+    <meta
+      name="description"
+      content="This is the offical page of The Little Taco Shop"
+    />
+    <meta name="viewport" content="width=device-width, initial-scal=1.0" />
+    <title>The Littel Taco Shop</title>
+    <link rel="stylesheet" href="./asset/style.css" />
+    <script src="./asset/JS/main.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="header__h1">Littel Taco Shop</h1>
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li>
+            <a href="#" class="active">Home</a>
+          </li>
+          <li>
+            <a href="./hours.html">Store Hours</a>
+          </li>
+          <li>
+            <a href="./contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="about.html">About LTS</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2 class="hero__h2">Bienvenidos!</h2>
+      <figure>
+        <img
+          src="./asset/img/pexels-kevin-bidwell-3118074.jpg"
+          alt="Tacos and Drink"
+          width="4109"
+          height="2739"
+        />
+        <figcaption class="offscreen">Tacos and Drink</figcaption>
+      </figure>
+    </section>
+
+    <main class="main">
+      <article class="main__article menu" id="menu">
+        <section>
+          <h2 menu__h2>Our Menu</h2>
+          <table class="menu__container">
+            <caption class="offscreen">
+              Our Tacos
+            </caption>
+            <thead>
+              <th class="menu__header" scope="col">Tacos</th>
+              <th class="menu__header" scope="col">Quantity</th>
+              <th class="menu__header" scope="col">Price</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="menu__iterm menu__cr" rowspan="3">Cranchy</td>
+                <td class="menu__iterm">1</td>
+                <td class="menu__iterm">$ 1.50</td>
+              </tr>
+              <tr>
+                <td class="menu__iterm">2</td>
+                <td class="menu__iterm">$ 2.50</td>
+              </tr>
+              <tr>
+                <td class="menu__iterm">3</td>
+                <td class="menu__iterm">$ 3.25</td>
+              </tr>
+              <tr>
+                <td class="menu__iterm menu__sf" rowspan="3">Soft</td>
+                <td class="menu__iterm">1</td>
+                <td class="menu__iterm">$ 2.00</td>
+              </tr>
+              <tr>
+                <td class="menu__iterm">2</td>
+                <td class="menu__iterm">$ 3.50</td>
+              </tr>
+              <tr>
+                <td class="menu__iterm">3</td>
+                <td class="menu__iterm">$ 4.50</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <td class="menu__iterm menu__cs" colspan="3">
+                Chips &amp; Salasa $2
+              </td>
+            </tfoot>
+          </table>
+        </section>
+
+        <p class="center">
+          <a href="#">Back to Top</a>
+        </p>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <p>
+        <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+        <span class="nowrap">Little Taco Shop.</span>
+      </p>
+    </footer>
+  </body>
+</html>
